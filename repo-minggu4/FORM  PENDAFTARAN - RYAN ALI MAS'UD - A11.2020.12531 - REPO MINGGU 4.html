@@ -1,0 +1,138 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color:black;  
+  color:white;
+}  
+.container {  
+    padding: 350px;  
+  background:url("https://archziner.com/wp-content/uploads/2020/07/man-wearing-jeans-dark-hoodie-backpack-cool-background-hd-standing-overlooking-a-city-at-night.jpg");  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+#biodata{
+    color: white;
+    text-align: center;
+    size: 50px;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 0px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+}
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> FORMULIR PPDB JALUR ZONASI TAHUN 2020 </h1> </center>  
+  <hr>  
+  <p><center><h1>INFO PENDAFTARAN</h1></center></p>
+  <label> NISN </label>   
+<input type="text" name="nisn" placeholder= "Masukkan NISN anda" size="15" required />   
+<label> Asal Sekolah </label>   
+<input type="text" name="asalsekolah" placeholder="Masukkan Asal Sekolah Anda" size="15" required />   
+<label> Tahun Lulus </label>    
+<input type="text" name="tahunlulus" placeholder="Masukkan Tahun Lulus Anda" size="15"required />   
+<div>  
+    <p><center><h1>DATA CALON PESERTA</h1></center></p>
+        <label> Nama Lengkap </label>   
+        <input type="text" name="namalengkap" placeholder= "Masukkan Nama Lengkap Anda" size="15" required />   
+        <label> NIK </label>   
+        <input type="text" name="NIK" placeholder="Masukkan NIK Anda" size="15" required />   
+        <label> Tempat Tanggal Lahir </label>    
+        <input type="text" name="ttl" placeholder="Masukkan Tempat Tanggal Lahir Anda" size="15"required /> 
+        <p><center><h1>FOTO COPY AKTE KELAHIRAN YANG TELAH DILEGALISIR ( Di Lampirkan )</h1></center></p>
+           <div>  
+<label>   
+Jenis Kelamin :  
+</label><br>  
+<input type="radio" value="Pria" name="gender" checked > Pria
+<input type="radio" value="Perempuan" name="gender"> Perempuan  
+  
+</div> 
+        <label> Alamat </label>   
+        <input type="text" name="Alamat" placeholder="Masukkan Alamat Anda" size="15" required />   
+        <label> Desa/Kelurahan </label>    
+        <input type="text" name="name" placeholder="Masukkan Desa/Kelurahan Anda" size="15"required />
+        <label> Kecamatan </label>    
+        <input type="text" name="kecamatan" placeholder="Masukkan Kecamatan Anda" size="15"required />
+        <label> Kabupaten </label>    
+        <input type="text" name="kabupaten" placeholder="Masukkan Kabupaten Anda" size="15"required />
+        <label> Provinsi </label>    
+        <input type="text" name="provinsi" placeholder="Masukkan Provinsi Anda" size="15"required /> 
+        <label> Email Aktif </label>    
+        <input type="text" name="email" placeholder="Masukkan Email Aktif Anda" size="15"required /> 
+</div>  
+ <p><center><h1>DATA ORANG TUA</h1></center></p>
+
+        <label> Nomor Kartu Keluarga </label>   
+        <input type="text" name="name" placeholder="Masukkan Nomor Kartu Keluarga Anda" size="15" required />   
+        <label> Nama Ayah Kandung </label>    
+        <input type="text" name="name" placeholder="Masukkan Nama Ayah Kandung Anda" size="15"required />
+        <label> Agama </label>    
+        <input type="text" name="name" placeholder="Masukkan Agama Anda" size="15"required />
+        <label> Pekerjaan </label>    
+        <input type="text" name="name" placeholder="Masukkan Pekerjaan Ayah Kandung Anda" size="15"required />
+        <label> Nama Ibu Kandung </label>    
+        <input type="text" name="name" placeholder="Masukkan Nama Ibu Kandung Anda" size="15"required /> 
+        <label> Agama </label>    
+        <input type="text" name="name" placeholder="Masukkan Agama Ibu Anda" size="15"required /> 
+        <label> Pekerjaan </label>   
+        <input type="text" name="name" placeholder="Masukkan Pekerjaan Ibu Kandung Anda" size="15" required />   
+            Alamat Orang Tua :  
+            <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+            </textarea>  
+    <button type="submit" class="registerbtn">Register</button>    
+    <div id="biodata">
+    <a href="file:///D:/kuliah/Pemrogaman%20Berbasis%20Web/webdas/repo-minggu3/BIODATA%20-%20RYAN%20ALI%20MAS'UD%20-%20A11.2020.12531%20%20-%20PEMROGAMAN%20WEB%204302.html"><p><center><h1>Biodata</h1></center></p></a>
+    </div>
+</form>  
+</body>  
+</html>  
