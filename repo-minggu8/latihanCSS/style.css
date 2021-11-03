@@ -1,0 +1,19 @@
+body {
+  background-color: aquamarine;
+}
+p {
+  font-family: serif;
+  line-height: 1.75em;
+  color: black;
+}
+i {
+  font-family: sans;
+
+  color: orange;
+}
+h2 {
+  font-family: sans;
+  color: #333;
+  font-size: large;
+  font-weight: bold;
+}
